@@ -3,11 +3,12 @@ guid: 9f25212fe628de846b716efece773b13
 TextureImporter:
   fileIDToRecycleName:
     21300000: Background_sprite
-    21300002: Mobile - Flappy Bird - Sprites_1
+    21300002: Pipe_Top_sprite
     21300004: Bird_sprite_0
     21300006: Bird_sprite_1
     21300008: Bird_sprite_2
     21300010: Ground_sprite
+    21300012: Pipe_Down_sprite
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -110,13 +111,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Sprites_1
+      name: Pipe_Top_sprite
       rect:
         serializedVersion: 2
         x: 56
-        y: 28
-        width: 54
-        height: 162
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,13 +199,33 @@ TextureImporter:
         width: 168
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: bbdd425d7f1bef6419abe14234c18c96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe_Down_sprite
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 29
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f2aad8921e1ba42bc4108322c2d55c
       vertices: []
       indices: 
       edges: []
