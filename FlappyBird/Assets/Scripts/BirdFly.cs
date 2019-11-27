@@ -2,17 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BirdFly : MonoBehaviour
-{
+public class BirdFly : MonoBehaviour {
+
+    public float velocity = 2f;
+    private Rigidbody2D rb; 
+
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start(){
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update(){
+        if (Input.GetMouseButtonDown(0)){
+            //jump
+            rb.velocity = Vector2.up * velocity;
+        }
+
     }
 }
