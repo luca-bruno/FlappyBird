@@ -9,12 +9,13 @@ TextureImporter:
     21300008: Bird_sprite_2
     21300010: Ground_sprite
     21300012: Pipe_Down_sprite
-    21300014: Start_sprite
+    21300014: Reload_sprite
     21300016: Title_sprite
     21300018: Get_Ready_sprite
     21300020: Game_Over_sprite
     21300022: Tap_sprite
     21300024: OK_sprite
+    21300026: Score_0_sprite
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -237,7 +238,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Start_sprite
+      name: Reload_sprite
       rect:
         serializedVersion: 2
         x: 354
@@ -332,26 +333,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1849b1956a35c4d40a9bfde0b091a1a1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OK_sprite
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 456
-        width: 40
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b5657eafc3e8f44492c80bdf5db7d8f
       vertices: []
       indices: 
       edges: []
