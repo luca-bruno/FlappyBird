@@ -8,6 +8,7 @@ public class BirdFly : MonoBehaviour {
     public float velocity = 2f;
     private Rigidbody2D rb; 
     public AudioSource deathSound;
+    public AudioSource jumpSound;
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
@@ -17,7 +18,7 @@ public class BirdFly : MonoBehaviour {
         if (Input.GetMouseButtonDown(0)){
             //jump
             rb.velocity = Vector2.up * velocity;
-       //     audio.PlayOneShot (flapping);
+            jumpSound.Play();
         }
     }
     
