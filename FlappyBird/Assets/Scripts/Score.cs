@@ -13,6 +13,6 @@ public class Score : MonoBehaviour
 
     private void Update()
     {
-        GetComponent<UnityEngine.UI.Text>().text = score.ToString();
+        GetComponent<UnityEngine.UI.Text>().text = score.ToString(); //converts UI text to a String value
     }
 }

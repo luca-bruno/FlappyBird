@@ -7,6 +7,6 @@ public class Reload : MonoBehaviour
 {
     public void ReloadGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Game"); //reloads scene from Button script
     }
 }

@@ -278,26 +278,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Get_Ready_sprite
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 428
-        width: 92
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b165db95dde3589419caaa01c5384a95
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Game_Over_sprite
       rect:
         serializedVersion: 2

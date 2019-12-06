@@ -16,13 +16,14 @@ public class BirdFly : MonoBehaviour {
 
     void Update(){
         if (Input.GetMouseButtonDown(0)){
-            //jump
+            //jump input + sound
             rb.velocity = Vector2.up * velocity;
             jumpSound.Play();
         }
     }
     
     private void OnCollisionEnter2D(Collision2D collision){
+        //load game over + sound
         gameManager.GameOver();
         deathSound.Play();
     }
